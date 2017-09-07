@@ -15,7 +15,7 @@ var listingSchema = new Schema({
   updated_at: Date,
   created_at: Date
 });
-
+ 
 /* create a 'pre' function that adds the updated_at (and created_at if not already there) property */
 listingSchema.pre('save', function (next) {
   /* your code here */

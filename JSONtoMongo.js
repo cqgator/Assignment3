@@ -23,6 +23,7 @@ jsonEntries.entries.forEach(function(entry){
     coordinates: entry.coordinates,
     address: entry.address
   }).save();
+}
 
 
 /* 

@@ -6,7 +6,7 @@ var fs = require('fs'),
   config = require('./config');
 
 /* Connect to your database */
-mongoose.connect(config.db.uri);
+mongoose.connect(config.db.uri); 
 
 var findLibraryWest = function () {
   Listing.find({ code: 'LBW' }, function (err, address) {
